@@ -1,0 +1,14 @@
+build/
+build-*/
+*.user
+*.pro.user
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+.vs/
+.qtcreator/
