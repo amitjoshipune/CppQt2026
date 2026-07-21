@@ -1,14 +1,23 @@
+# Build directories
 build/
 build-*/
+
+# Qt Creator
+.qtcreator/
 *.user
-*.pro.user
+
+# CMake
 CMakeCache.txt
 CMakeFiles/
 cmake-build-*/
+
+# Generated files
 *.obj
 *.o
 *.exe
 *.pdb
 *.ilk
-.vs/
-.qtcreator/
+*.manifest
+
+# Logs
+*.log
