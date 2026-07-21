@@ -19,9 +19,13 @@ int main(int argc, char *argv[])
     // to QCoreApplication::exec() or use the Non-Qt Plain C++ Application template.
 
     //return QCoreApplication::exec();
+
+    cout << "=====================================" << endl;
     cout << "Hello Amit!" << endl;
     cout << "Welcome to CppQt2026 Bootcamp." << endl;
     cout << "Today's date: 21 July 2026" << endl;
+    cout << "=====================================";
 
+    // We are not using the Qt event loop yet.
     return 0;
 }
